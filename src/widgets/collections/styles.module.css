@@ -1,0 +1,20 @@
+.list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
+
+.one {
+      background-color: rgba(255, 255, 255, 0.15);
+      font-weight: bold;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      text-align: center;
+      transition: all 0.1s ease-in-out;
+}
+
+.one:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: all 0.1s ease-in-out;
+}
