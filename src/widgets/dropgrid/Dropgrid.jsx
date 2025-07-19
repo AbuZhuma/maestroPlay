@@ -63,7 +63,7 @@ const Dropgrid = ({ drops }) => {
   }
 
   if (loading) return <p>Loading...</p>;
-  if (!memoizedDrops.length) return <p>No drops here</p>
+  if (!memoizedDrops.length || !drops.length) return <p>No drops here</p>
   return (
     <div className={styles.list}>
       <div className={styles.pannel}>

@@ -3,7 +3,7 @@ import { create } from "zustand";
 import { url } from "./vars";
 
 const useDropBox = create((set) => ({
-      collections: ["piano"],
+      collections: [],
       one: null,          
       getCollection: async (title) => {
             try {
